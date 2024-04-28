@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ED9615;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-info {
+    padding-top: 200px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 400px;
+    background-image: url('../images/mainbag.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.our-name {
+    text-align: center;
+    font-size: 64px;
+    color: #ED9615;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-us {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.copyright {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    vertical-align: middle;
+}
+
+.inf-button {
+    background-color: #ED9615;
+    color: #ffffff;
+    width: 100%;
+}
+
+.container {
+    padding: 60px;
+    margin-bottom: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-card {
+    margin-bottom: 20px;
+}
