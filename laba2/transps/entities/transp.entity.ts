@@ -2,7 +2,6 @@ import { IntegerType } from "typeorm";
 
 export class transp {
     id: number;
-    country: string;
+    category: string;
     price: IntegerType;
-    is_free: boolean;
 }
