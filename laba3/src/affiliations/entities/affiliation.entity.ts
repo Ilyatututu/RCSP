@@ -12,8 +12,6 @@ export class Affiliation {
 companyName: string;
 @Column()
     address: string;
-@Column()
-    specialization: string;
 @ManyToMany((type) => catalog, (catalog) => catalog.affiliations)
 @JoinTable({
     name: 'catalog_affiliation',

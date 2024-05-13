@@ -10,6 +10,6 @@ import { Article } from 'src/articles/entities/article.entity';
 @Module({
   controllers: [catalogsController],
   providers: [catalogsService],
-  imports: [catalog, DatasourceModule, TypeOrmModule.forFeature ([catalog, Affiliation, Article])],
+  imports: [DatasourceModule, TypeOrmModule.forFeature ([catalog, Affiliation, Article])],
 })
 export class catalogsModule {}

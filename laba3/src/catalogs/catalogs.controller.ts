@@ -1,4 +1,5 @@
 import { catalogsService } from './catalogs.service';
+import { CreateCatalogDto } from './dto/catalogDTO';
 import { catalog } from './entities/catalog.entity';
 import { Controller, Get, Param, Put, Body, Post, Delete } from "@nestjs/common";
 import { ApiTags } from '@nestjs/swagger';
@@ -29,7 +30,7 @@ export class catalogsController {
     }
 
     @Post()
-    create(@Body() createcatalog: catalog) {
+    create(@Body() createcatalog: CreateCatalogDto) {
         return this.catalogsService.create(createcatalog);
     }
 

@@ -11,6 +11,6 @@ const ormConfig: DataSource = new DataSource({
   logging: true,
   synchronize: false,
   migrationsTableName: 'migrations',
-  migrations: ['dist/src/migrations/*{.ts,.js}'],
+  migrations: ['dist/src/migrations/'],
 });
 export default ormConfig;
